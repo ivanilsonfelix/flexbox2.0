@@ -36,7 +36,11 @@
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
+
 .bloco-2{
     background-color: red;
     height: 150px;
@@ -45,6 +49,9 @@
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
 .bloco-3{
     background-color: yellowgreen;
@@ -54,7 +61,11 @@
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
+
 .container-row{
     display: flex;
     flex-direction: row;
@@ -62,5 +73,46 @@
     background-color: bisque;
     padding: 16px;
     height: 500px;
-    
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
+
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    /* flex box*/
+    background-color: bisque;
+    padding: 16px;
+    height: 500px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+    
+
+.container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex box*/
+    background-color: bisque;
+    padding: 16px;
+    height: 500px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    /* flex box*/
+    background-color: bisque;
+    padding: 16px;
+    height: 500px;   
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+} 
+    
