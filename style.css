@@ -259,6 +259,68 @@
 }
 .bloco-1-fontes-diferentes {
     background-color: aqua;
+    height: 150px; 
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+    /*ESTES COMANDOS CENTRALIZA O NÚMERO DO BLOCO*/
+}
+
+.bloco-2-fontes-diferentes {
+    background-color: red;
+    height: 150px; 
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-3-fontes-diferentes {
+    background-color: yellowgreen;
+    height: 150px; 
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+     display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.container-align-baselise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(184, 181, 11);
+    padding: 16px;
+    height: 500px; 
+    
+}
+
+.container-flexwrap-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: nowrap;
+
+}
+
+.bloco-1-wrap {
+    background-color: aqua;
     /*height: 150px; retirado sem altura*/
     width: 150px;
     text-align: center;
@@ -271,12 +333,12 @@
     /*ESTES COMANDOS CENTRALIZA O NÚMERO DO BLOCO*/
 }
 
-.bloco-2-fontes-diferentes {
+.bloco-2-wrap {
     background-color: red;
     /*height: 150px; retirado sem altura*/
     width: 150px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
     /*display: flex;
@@ -284,24 +346,122 @@
     align-items: center;*/
 }
 
-.bloco-3-fontes-diferentes {
+.bloco-3-wrap {
     background-color: yellowgreen;
     /*height: 150px; retirado sem altura*/
     width: 150px;
     text-align: center;
-    font-size: 90px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
     /* display: flex;
     justify-content: center;
     align-items: center;*/
 }
-.container-align-balise{
+.container-flexwrap-wrap{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
-    background-color: rgb(184, 181, 11);
+    align-items: center;
+    background-color: rgb(33, 69, 168);
     padding: 16px;
     height: 500px; 
+    flex-wrap: wrap;
+
+}
+
+.container-flex-wrap-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap-reverse;
+
+}
+
+.nome-propriedade-shorthands{
+    color: rgb(12, 71, 52);
+
+}
+.container-flexflow-rownowrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-flow: row nowrap;
+
+
+}
+.container-align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.container-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.container-align-content-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.container-align-content-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.container-align-content-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.container-align-content-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 69, 168);
+    padding: 16px;
+    height: 500px; 
+    flex-wrap: wrap;
+    align-content: space-evenly;
 }
