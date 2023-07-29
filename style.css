@@ -209,3 +209,99 @@
     padding: 16px;
     height: 500px;
 }
+.bloco-1-sem-altura {
+    background-color: aqua;
+    /*height: 150px; retirado sem altura*/
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    /*ESTES COMANDOS CENTRALIZA O NÚMERO DO BLOCO*/
+}
+
+.bloco-2-sem-altura {
+    background-color: red;
+    /*height: 150px; retirado sem altura*/
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.bloco-3-sem-altura {
+    background-color: yellowgreen;
+    /*height: 150px; retirado sem altura*/
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.container-align-stretch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgb(121, 11, 184);
+    padding: 16px;
+    height: 500px; 
+}
+.bloco-1-fontes-diferentes {
+    background-color: aqua;
+    /*height: 150px; retirado sem altura*/
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    /*ESTES COMANDOS CENTRALIZA O NÚMERO DO BLOCO*/
+}
+
+.bloco-2-fontes-diferentes {
+    background-color: red;
+    /*height: 150px; retirado sem altura*/
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.bloco-3-fontes-diferentes {
+    background-color: yellowgreen;
+    /*height: 150px; retirado sem altura*/
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.container-align-balise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(184, 181, 11);
+    padding: 16px;
+    height: 500px; 
+}
