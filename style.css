@@ -253,7 +253,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    background-color: rgb(121, 11, 184);
+    background-color: darkgoldenrod;
     padding: 16px;
     height: 500px; 
 }
@@ -301,7 +301,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    background-color: rgb(184, 181, 11);
+    background-color: darkgoldenrod;
     padding: 16px;
     height: 500px; 
     
@@ -459,9 +459,38 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(33, 69, 168);
+    background-color: rgb(168, 53, 33);
     padding: 16px;
     height: 500px; 
     flex-wrap: wrap;
     align-content: space-evenly;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    list-style: none;
+    text-indent: 90px;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+a:hover {
+  background-color: blueviolet;
+  color: aquamarine;  
+  transition: .5s;
+  padding: 20px;
+  border-radius: 13px;
+
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.btn-fixo{
+    text-decoration: none;
+    color: black;
+    visibility: visible;
 }

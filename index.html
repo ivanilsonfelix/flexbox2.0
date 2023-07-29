@@ -6,16 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Flebox</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
+   
+    
+
+       
+    <nav class="menu" id="top">
+      
+        <li> <a href="#display"> display </a></li>
+        <li> <a href="#flex-direction"> flex-direction </a></li>
+        <li> <a href="#justify-content"> justify-content </a></li>
+        <li> <a href="#align-itens"> align-itens </a></li>
+        <li> <a href="#flex-wrap"> flex-wrap </a></li>
+        <li> <a href="#flex-flow"> flex-flow </a></li>
+        <li> <a href="#align-content"> align-content </a></li>
+
+    </nav>  
+
+    
+
+
+    
+
     <h1 class="titulo-pagina">Propriedades Flexbox - Parte 1: container</h1>
     <hr>
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="display">
         1 -display - ativa o flexbox / identifica que aquele elemento será um container flex
     </h1>
     <hr>
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="flex-direction">
         2 - flex-direction - define a direção do eixo principal.
         Exemplos:
     </h1>
@@ -27,22 +49,24 @@
 
 
     </main>
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
     <h2 class="valor-propriedade"> flex-direction: column </h2>
     <main class="container-column">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
 
-
     </main>
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
     <h2 class="valor-propriedade"> flex-direction: row-reverse</h2>
     <main class="container-row-reverse">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
-
-
     </main>
+    <hr>
     <h2 class="valor-propriedade"> flex-direction: column-reverse </h2>
     <main class="container-column-reverse">
         <div class="bloco-1"> 1</div>
@@ -51,8 +75,9 @@
 
 
     </main>
-
-    <h1 class="nome-propriedade">
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
+    <h1 class="nome-propriedade" id="justify-content">
         3 - justify-content - serve para alinhar os objetos no eixo principal
     </h1>
     <h2 class="valor-propriedade"> justify-content: center</h2>
@@ -61,46 +86,45 @@
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
-
-
+    <hr>
     <h2 class="valor-propriedade"> justify-content: flex-start</h2>
     <main class="container-justify-flex-start">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> justify-content: flex-end</h2>
     <main class="container-justify-flex-end">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> justify-content: space-between</h2>
     <main class="container-justify-space-between">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> justify-content: space-around </h2>
     <main class="container-justify-space-around">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> justify-content: space-evenly </h2>
     <main class="container-justify-space-evenly">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
-    <h1 class="nome-propriedade">
-        4 - align - alinha os objetos no eixo secundario/perpendicular
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
+    <h1 class="nome-propriedade" id="align-itens">
+        4 - align-itens- alinha os objetos no eixo secundario/perpendicular
     </h1>
     <h2 class="valor-propriedade"> align-items: center</h2>
     <main class="container-align-center">
@@ -108,36 +132,37 @@
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-items: flex-start</h2>
     <main class="container-align-flex-start">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-items: flex-end</h2>
     <main class="container-align-flex-end">
         <div class="bloco-1"> 1</div>
         <div class="bloco-2"> 2</div>
         <div class="bloco-3"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-items: stretch</h2>
     <main class="container-align-stretch">
         <div class="bloco-1-sem-altura"> 1</div>
         <div class="bloco-2-sem-altura"> 2</div>
         <div class="bloco-3-sem-altura"> 3</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-items: baselise</h2>
     <main class="container-align-baselise">
         <div class="bloco-1-fontes-diferentes"> 1</div>
         <div class="bloco-2-fontes-diferentes"> 2</div>
         <div class="bloco-3-fontes-diferentes"> 3</div>
     </main>
-
-    <h1 class="nome-propriedade">
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
+    <h1 class="nome-propriedade" id="flex-wrap">
         5 - flex wrap - serve para decidir se os elementos irão para a linha de baixo quando chegar ao final da tela ou se eles ficaão espremidos.
     </h1>
     <h2 class="valor-propriedade"> fles-wrap: nowrap</h2>
@@ -155,7 +180,7 @@
         <div class="bloco-2"> 11</div>
         <div class="bloco-3"> 12</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> flex-wrap: wrap</h2>
     <main class="container-flexwrap-wrap">
         <div class="bloco-1"> 1</div>
@@ -174,7 +199,7 @@
         <div class="bloco-2"> 14</div>
         <div class="bloco-3"> 15</div>
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> flex-wrap: wrap-reverse</h2>
     <main class="container-flex-wrap-reverse">
         <div class="bloco-1"> 1</div>
@@ -194,8 +219,9 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
-    <h1 class="nome-propriedade-shorthands">
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
+    <h1 class="nome-propriedade-shorthands" id="flex-flow">
         6 - flex-flow (shorthands) - é um atalho que combina as propriedades flex-direction e flex-wrap.
     </h1>
     <h2 class="valor-propriedade"> flexflow: rownowrap</h2>
@@ -217,11 +243,12 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
-    <h1 class="nome-propriedade">
+    <a class="btn-fixo" href="#top">voltar</a>
+    <hr>
+    <h1 class="nome-propriedade" id="align-content">
         7 - align-content - para quando existir o flex- wrap ou seja quebra de lina e nos queremos alinhar os objestos no eixo perpendicular/ secundario.
     </h1>
-
+    <hr>
     <h2 class="valor-propriedade"> align-content-center</h2>
     <main class="container-align-content-center">
         <div class="bloco-1"> 1</div>
@@ -241,7 +268,7 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-content-flex-start</h2>
     <main class="container-align-content-flex-start">
         <div class="bloco-1"> 1</div>
@@ -261,7 +288,7 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-content-flex-end</h2>
     <main class="container-align-content-flex-end">
         <div class="bloco-1"> 1</div>
@@ -281,7 +308,7 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-content-space-between</h2>
     <main class="container-align-content-space-between">
         <div class="bloco-1"> 1</div>
@@ -301,7 +328,7 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-content-space-around</h2>
     <main class="container-align-content-space-around">
         <div class="bloco-1"> 1</div>
@@ -321,7 +348,7 @@
         <div class="bloco-3"> 15</div>
         
     </main>
-
+    <hr>
     <h2 class="valor-propriedade"> align-content-space-evenly</h2>
     <main class="container-align-content-space-evenly">
         <div class="bloco-1"> 1</div>
@@ -341,6 +368,7 @@
         <div class="bloco-3"> 15</div>
         
     </main>
+    <a class="btn-fixo" href="#top">voltar</a>
 
 
 
